@@ -1,0 +1,11 @@
+---
+
+# JDK config
+jdk_version: 11.0.12_7
+jdk_download_url: https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.12_7.tar.gz
+jdk_download_sha256: 8770f600fc3b89bf331213c7aa21f8eedd9ca5d96036d1cd48cb2748a3dbefd2
+
+# Tomcat config
+tomcat_version: 10.0.11
+tomcat_download_url: https://archive.apache.org/dist/tomcat/tomcat-10/v10.0.11/bin/apache-tomcat-10.0.11.tar.gz
+tomcat_download_sha512: 16e1879490bb0e5843059e3a475558f1990b03f897a7d5cce5788d6983598ec30cbf3749e30c18fb799f5068cab8407d04e9e6e9705700b152f90a3dc8bc0cb5
