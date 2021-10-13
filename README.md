@@ -1,6 +1,6 @@
 # Tomcat with Ansible
 
-Start of a template for installing and configuring a tomcat and jdk.
+Role for installing and configuring a tomcat and jdk dependency.
 
 ## Parameters
 
@@ -17,6 +17,8 @@ And ansible-jdk parameters:
 
 Credit: Tested with vagrant image from [@geerlingguy's Ansible for Devops](https://github.com/geerlingguy/ansible-for-devops)
 
+Run the following from the test directory:
+
 ### Initial Install
 ```
 vagrant up
@@ -26,7 +28,3 @@ vagrant up
 ```
 vagrant provision
 ```
-
-## TODO
-
- * Replace relative path for jdk playbook
