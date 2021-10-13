@@ -2,4 +2,4 @@
   become: yes
 
   roles:
-    - { role: ../../ansible-tomcat-role }
+    - ../../ansible-tomcat-role
