@@ -3,4 +3,12 @@
 dependencies:
   - src: https://github.com/wahlax/ansible-jdk-role
     version: main
-    name: ansible-jdk-role
+    name: wahlax.jdk
+
+
+galaxy_info:
+  role_name: tomcat
+  author: wahlax
+  description: Tomcat install for linux
+  company: WAHLAX LLC
+  license: MIT
